@@ -1,215 +1,147 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultura Generală - Index</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metodică - susținerea lecțiilor de matematică online</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box;}
-        :root{
-            --primary-dark:#1a3a52;
-            --primary-light:#2d5a7b;
-            --accent:#d4af37;
-            --text-light:#ffffff;
-            --bg-light:#f5f5f5;
-            --yellow-light:#fff59d;
-            --blue-intense:#0056b3;
-        }
-        body{
-            font-family:'Segoe UI',Tahoma,Verdana,sans-serif;
-            background:var(--bg-light);
-        }
-        header{
-            background:linear-gradient(135deg,var(--primary-dark),var(--primary-light));
-            position:sticky;top:0;z-index:1000;
-        }
-        nav{
-            max-width:1200px;margin:auto;
-            display:flex;flex-direction:column;align-items:center;
-        }
-        .logo{
-            color:white;font-size:24px;font-weight:700;
-            padding:15px;text-transform:uppercase;
-        }
-        .menu-toggle{
-            display:none;background:none;border:none;
-            color:white;font-size:24px;cursor:pointer;
-        }
-        .nav-menu{
-            list-style:none;display:flex;justify-content:center;width:100%;
-        }
-        .nav-item{position:relative;}
-        .nav-link{
-            display:block;padding:15px 12px;color:white;
-            text-decoration:none;font-size:14px;
-            border-bottom:3px solid transparent;
-        }
-        .nav-link:hover{
-            background:rgba(255,245,157,.15);
-            border-bottom-color:var(--yellow-light);
-            color:var(--yellow-light);
-        }
-        .dropdown-toggle::after{
-            content:"▼";font-size:10px;margin-left:6px;
-        }
-        .dropdown-menu{
-            position:absolute;top:100%;left:0;
-            background:var(--primary-dark);
-            list-style:none;min-width:260px;
-            opacity:0;visibility:hidden;
-            transform:translateY(-10px);
-            transition:.3s;
-            border-top:3px solid var(--accent);
-        }
-        .dropdown:hover .dropdown-menu{
-            opacity:1;visibility:visible;transform:translateY(0);
-        }
-        .dropdown-item{
-            display:block;padding:14px 20px;
-            color:white;text-decoration:none;
-        }
-        .dropdown-item:hover{
-            background:rgba(255,245,157,.15);
-            color:var(--yellow-light);
-        }
-        main{text-align:center;padding:60px 20px;}
-        h1{color:var(--blue-intense);font-size:40px;}
-        footer{
-            background:var(--primary-dark);
-            color:white;text-align:center;
-            padding:30px;margin-top:60px;
-        }
-        @media(max-width:768px){
-            .menu-toggle{display:block}
-            .nav-menu{display:none;flex-direction:column}
-            .nav-menu.active{display:flex}
-            .dropdown-menu{position:static;opacity:1;visibility:visible;transform:none}
-        }
-		.hero-image {
-    width: 100%;
-    max-width: 420px;   /* controlează dimensiunea pozei */
-    margin: 25px auto;  /* centrează */
-    border-radius: 8px;
-    overflow: hidden;
-    border: 4px solid #1a3a52;
-}
+    html, body {
+        height: 100%;
+        overflow: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #0f2557;
+        color: #e8e8e8;
+    }
 
-.hero-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+    .layout-container {
+        display: grid;
+        grid-template-rows: 80px 1fr 40px;
+        height: 100%;
+        width: 100%;
+    }
 
-    </style>
+    .frame-titlus {
+        background: linear-gradient(135deg, #0f2557 0%, #1a3a6b 100%);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+    }
+
+    .middle-container {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        min-height: 0; /* esențial pentru scroll corect */
+    }
+
+    .frame-stanga {
+        background: rgba(15, 37, 87, 0.8);
+        border-right: 2px solid rgba(255, 255, 255, 0.1);
+        overflow-y: auto;
+        overflow-x: hidden;
+        min-height: 0;
+    }
+
+    .frame-intro {
+        background: rgba(26, 58, 107, 0.4);
+        overflow-y: auto;
+        overflow-x: hidden;
+        min-height: 0;
+    }
+
+    .frame-jos {
+        background: linear-gradient(135deg, #1a3a6b 0%, #0f2557 100%);
+        border-top: 2px solid rgba(255, 255, 255, 0.1);
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+    }
+
+    /* Scrollbar styling */
+    .frame-stanga::-webkit-scrollbar,
+    .frame-intro::-webkit-scrollbar,
+    .frame-jos::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .frame-stanga::-webkit-scrollbar-track,
+    .frame-intro::-webkit-scrollbar-track,
+    .frame-jos::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .frame-stanga::-webkit-scrollbar-thumb,
+    .frame-intro::-webkit-scrollbar-thumb,
+    .frame-jos::-webkit-scrollbar-thumb {
+        background: rgba(74, 144, 226, 0.5);
+        border-radius: 4px;
+    }
+
+    .frame-stanga::-webkit-scrollbar-thumb:hover,
+    .frame-intro::-webkit-scrollbar-thumb:hover,
+    .frame-jos::-webkit-scrollbar-thumb:hover {
+        background: rgba(74, 144, 226, 0.7);
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .layout-container {
+            grid-template-rows: 60px 1fr 40px;
+        }
+
+        .middle-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr;
+        }
+
+        .frame-stanga {
+            border-right: none;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            max-height: 200px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .layout-container {
+            grid-template-rows: 50px 1fr 35px;
+        }
+    }
+</style>
 </head>
-
 <body>
-
-<header>
-<nav>
-    <div class="logo">📚 Rezolvări de probleme</div>
-    <button class="menu-toggle" id="menuToggle">☰</button>
-
-    <ul class="nav-menu" id="navMenu">
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Mate. V</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Alg. VI</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Geome. VI</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Alg. VII</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Geome. VII</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Alg. VIII</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-        <!-- GEOMETRIE VIII – CORECT -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Geome. VIII</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://geome8p1.netlify.app/">Problema 1</a></li>
-                <li><a class="dropdown-item" href="#">Problema 2</a></li>
-				<li><a class="dropdown-item" href="#">Problema 3</a></li>
-            </ul>
-        </li>
-		
-		
-		
-        <!-- DIVERSE – ULTIMUL -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Diverse</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">...</a></li>
-            </ul>
-        </li>
-
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#">Lecții interdisciplinare</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" target="_blank" href="https://testeculturagenerala.netlify.app/">🎯 Teste de cultură generală</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://ascriesauanuscriecorect.netlify.app/">✍️ A scrie sau a nu scrie corect</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://vinmartienii.netlify.app/">🍷 Vin marțienii!</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://delaterralaluna.netlify.app/">🌙 De la Pământ la Lună</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://nejucamsiinvatam.netlify.app/">🎮 Ne jucăm și învățăm</a></li>
-            </ul>
-        </li>
-
-    </ul>
-</nav>
-</header>
-
-<main>
-    <h1>Bine ai venit!</h1>	
-	
-    <div class="hero-image">
-        <img src="intro.jpg" alt="Introducere - Rezolvări de probleme">
+<div class="layout-container">
+    <!-- Frame: titlus (top - 80px) -->
+    <div class="frame-titlus">
+        <iframe src="titlus.html" title="Titlu"></iframe>
     </div>
-	
-    <p>Vă invităm să rezolvați un set de probleme de matematică și nu numai.</p>
-</main>
 
-<footer>
-    <p>&copy; 2025 Matematică & Cultura generală</p>
-</footer>
+    <!-- Middle container: stanga + intro -->
+    <div class="middle-container">
+        <!-- Frame: stanga (left sidebar - 250px) -->
+        <div class="frame-stanga">
+            <iframe src="stanga.html" name="stanga" title="Meniu stânga"></iframe>
+        </div>
 
-<script>
-const menuToggle=document.getElementById("menuToggle");
-const navMenu=document.getElementById("navMenu");
-menuToggle.onclick=()=>navMenu.classList.toggle("active");
-</script>
+        <!-- Frame: intro (main content area) -->
+        <div class="frame-intro">
+            <iframe src="intro.html" name="intro" title="Conținut principal"></iframe>
+        </div>
+    </div>
 
+    <!-- Frame: jos (bottom - 40px) -->
+    <div class="frame-jos">
+        <iframe src="jos.html" name="jos2" title="Footer"></iframe>
+    </div>
+</div>
 </body>
 </html>
