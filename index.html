@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Generală - Index</title>
+
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        :root{
+            --primary-dark:#1a3a52;
+            --primary-light:#2d5a7b;
+            --accent:#d4af37;
+            --text-light:#ffffff;
+            --bg-light:#f5f5f5;
+            --yellow-light:#fff59d;
+            --blue-intense:#0056b3;
+        }
+        body{
+            font-family:'Segoe UI',Tahoma,Verdana,sans-serif;
+            background:var(--bg-light);
+        }
+        header{
+            background:linear-gradient(135deg,var(--primary-dark),var(--primary-light));
+            position:sticky;top:0;z-index:1000;
+        }
+        nav{
+            max-width:1200px;margin:auto;
+            display:flex;flex-direction:column;align-items:center;
+        }
+        .logo{
+            color:white;font-size:24px;font-weight:700;
+            padding:15px;text-transform:uppercase;
+        }
+        .menu-toggle{
+            display:none;background:none;border:none;
+            color:white;font-size:24px;cursor:pointer;
+        }
+        .nav-menu{
+            list-style:none;display:flex;justify-content:center;width:100%;
+        }
+        .nav-item{position:relative;}
+        .nav-link{
+            display:block;padding:15px 12px;color:white;
+            text-decoration:none;font-size:14px;
+            border-bottom:3px solid transparent;
+        }
+        .nav-link:hover{
+            background:rgba(255,245,157,.15);
+            border-bottom-color:var(--yellow-light);
+            color:var(--yellow-light);
+        }
+        .dropdown-toggle::after{
+            content:"▼";font-size:10px;margin-left:6px;
+        }
+        .dropdown-menu{
+            position:absolute;top:100%;left:0;
+            background:var(--primary-dark);
+            list-style:none;min-width:260px;
+            opacity:0;visibility:hidden;
+            transform:translateY(-10px);
+            transition:.3s;
+            border-top:3px solid var(--accent);
+        }
+        .dropdown:hover .dropdown-menu{
+            opacity:1;visibility:visible;transform:translateY(0);
+        }
+        .dropdown-item{
+            display:block;padding:14px 20px;
+            color:white;text-decoration:none;
+        }
+        .dropdown-item:hover{
+            background:rgba(255,245,157,.15);
+            color:var(--yellow-light);
+        }
+        main{text-align:center;padding:60px 20px;}
+        h1{color:var(--blue-intense);font-size:40px;}
+        footer{
+            background:var(--primary-dark);
+            color:white;text-align:center;
+            padding:30px;margin-top:60px;
+        }
+        @media(max-width:768px){
+            .menu-toggle{display:block}
+            .nav-menu{display:none;flex-direction:column}
+            .nav-menu.active{display:flex}
+            .dropdown-menu{position:static;opacity:1;visibility:visible;transform:none}
+        }
+		.hero-image {
+    width: 100%;
+    max-width: 420px;   /* controlează dimensiunea pozei */
+    margin: 25px auto;  /* centrează */
+    border-radius: 8px;
+    overflow: hidden;
+    border: 4px solid #1a3a52;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <div class="logo">📚 Rezolvări de probleme</div>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <ul class="nav-menu" id="navMenu">
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Mate. V</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Alg. VI</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Geome. VI</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Alg. VII</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Geome. VII</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Alg. VIII</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+        <!-- GEOMETRIE VIII – CORECT -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Geome. VIII</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://geome8p1.netlify.app/">Problema 1</a></li>
+                <li><a class="dropdown-item" href="#">Problema 2</a></li>
+				<li><a class="dropdown-item" href="#">Problema 3</a></li>
+            </ul>
+        </li>
+		
+		
+		
+        <!-- DIVERSE – ULTIMUL -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Diverse</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+        </li>
+
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Lecții interdisciplinare</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href="https://testeculturagenerala.netlify.app/">🎯 Teste de cultură generală</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://ascriesauanuscriecorect.netlify.app/">✍️ A scrie sau a nu scrie corect</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://vinmartienii.netlify.app/">🍷 Vin marțienii!</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://delaterralaluna.netlify.app/">🌙 De la Pământ la Lună</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://nejucamsiinvatam.netlify.app/">🎮 Ne jucăm și învățăm</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+</header>
+
+<main>
+    <h1>Bine ai venit!</h1>	
+	
+    <div class="hero-image">
+        <img src="intro.jpg" alt="Introducere - Rezolvări de probleme">
+    </div>
+	
+    <p>Vă invităm să rezolvați un set de probleme de matematică și nu numai.</p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Matematică & Cultura generală</p>
+</footer>
+
+<script>
+const menuToggle=document.getElementById("menuToggle");
+const navMenu=document.getElementById("navMenu");
+menuToggle.onclick=()=>navMenu.classList.toggle("active");
+</script>
+
+</body>
+</html>
