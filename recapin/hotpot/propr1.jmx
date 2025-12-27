@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jmix-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>abc</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<jumbled-order-exercise><main-order><segment>&amp;#x00CE;ntr-o</segment>
+<segment>sum&amp;#x0103;</segment>
+<segment>de</segment>
+<segment>numere</segment>
+<segment>naturale,</segment>
+<segment>putem</segment>
+<segment>schimba</segment>
+<segment>ordinea</segment>
+<segment>termenilor</segment>
+<segment>acesteia.</segment>
+</main-order></jumbled-order-exercise>
+</data>
+
+<hotpot-config-file>
+<jmix>
+<exercise-subtitle>Reconstrui&amp;#x0163;i propozi&amp;#x0163;ia!</exercise-subtitle>
+<instructions>Aranja&amp;#x0163;i cuvintele &amp;#x00EE;n ordinea corect&amp;#x0103;, d&amp;#x00E2;nd &quot;click&quot; pe fiecare cuv&amp;#x00E2;nt. Ap&amp;#x0103;sa&amp;#x0163;i &quot;Verific&amp;#x0103;!&quot; pentru a verifica r&amp;#x0103;spunsul dumneavoastr&amp;#x0103;. </instructions>
+<guess-correct>Corect!</guess-correct>
+<guess-incorrect>Ne pare r&amp;#x0103;u! &amp;#x00CE;ncerca&amp;#x0163;i inc&amp;#x0103; o dat&amp;#x0103;.</guess-incorrect>
+<this-much-correct>Aceast&amp;#x0103; parte a r&amp;#x0103;spunsului este corect&amp;#x0103;:</this-much-correct>
+<next-correct-part>Urm&amp;#x0103;toarea parte a enun&amp;#x0163;ului este: </next-correct-part>
+<click-to-add>Da&amp;#x0163;i click pe fiecare cuv&amp;#x00E2;nt, &amp;#x00EE;n ordinea corect&amp;#x0103;.</click-to-add>
+<also-correct>Aceste r&amp;#x0103;spunsuri sunt, de asemenea, corecte:</also-correct>
+<include-undo>1</include-undo>
+<include-restart>1</include-restart>
+<include-hint>1</include-hint>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<capitalize-first-letter>0</capitalize-first-letter>
+<separate-javascript-file>0</separate-javascript-file>
+</jmix>
+
+<global>
+
+<times-up>Your time is over!</times-up>
+<check-caption>Verific&amp;#x0103;!</check-caption>
+<ok-caption>OK!</ok-caption>
+<undo-caption>Reface&amp;#x0163;i!</undo-caption>
+<hint-caption>Indiciu</hint-caption>
+<restart-caption>Restart!</restart-caption>
+<your-score-is>Punctajul dvs. este: </your-score-is>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#ffffcc</page-bg-color>
+<title-color>#990000</title-color>
+<ex-bg-color>#FFFFCC</ex-bg-color>
+<text-color>#990000</text-color>
+<link-color>#800000</link-color>
+<vlink-color>#ff0000</vlink-color>
+<nav-bar-color>#FFCB7D</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+</global>
+</hotpot-config-file>
+</hotpot-jmix-file>

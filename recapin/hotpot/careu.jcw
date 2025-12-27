@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jcross-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>abc</dc:creator>
+    <dc:title>CAREU MATEMATIC</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>CAREU MATEMATIC</title>
+
+
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer><reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<crossword>
+<grid><row><cell>9</cell><cell>9</cell><cell>9</cell><cell></cell><cell>2</cell><cell>4</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>8</cell><cell>0</cell><cell>6</cell><cell></cell><cell>3</cell><cell>3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>7</cell><cell></cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>1</cell><cell>0</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>0</cell><cell>2</cell><cell></cell><cell>9</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>9</cell><cell>1</cell><cell></cell><cell>1</cell><cell>1</cell><cell>1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></grid>
+
+<clues><item><word>999</word><def>Triplul num&amp;#x0103;rului 333</def></item><item><word>24</word><def>Dublul num&amp;#x0103;rului 12</def></item><item><word>806</word><def>Num&amp;#x0103;rul de 2 ori mai mare dec&amp;#x00E2;t 403</def></item><item><word>33</word><def>Jum&amp;#x0103;tatea lui 66
+</def></item><item><word>1112</word><def>Num&amp;#x0103;rul cu 1 mai mare dec&amp;#x00E2;t 1111</def></item><item><word>10234</word><def>Cel mai mic num&amp;#x0103;r de cinci cifre diferite</def></item><item><word>102</word><def>Urmeaz&amp;#x0103; dup&amp;#x0103; 101</def></item><item><word>91</word><def>Num&amp;#x0103;rul de 4 ori mai mic dec&amp;#x00E2;t 364</def></item><item><word>111</word><def>Jum&amp;#x0103;tatea lui  222
+</def></item><item><word>987</word><def>Cel mai mare num&amp;#x0103;r de trei cifre distincte</def></item><item><word>90</word><def>De 9 ori mai mare dec&amp;#x00E2;t 10</def></item><item><word>96102</word><def>Cel mai mare num&amp;#x0103;r care se poate forma cu
+cifrele 0, 1, 9, 2, 6, av&amp;#x00E2;nd cifra 0 la ordinul zecilor
+&amp;#x015F;i cifra 1 la ordinul sutelor
+</def></item><item><word>231391</word><def>1 000 000 - 768 609</def></item><item><word>4324</word><def>540x8+4</def></item><item><word>12</word><def>Sfertul lui 48</def></item><item><word>101</word><def>Succesorul lui 100</def></item><item><word>19</word><def>Mai mic cu 1 dec&amp;#x00E2;t 20	
+</def></item></clues>
+</crossword>
+</data>
+
+<hotpot-config-file>
+<jcross>
+<exercise-subtitle>V&amp;#x0103; invit&amp;#x0103;m s&amp;#x0103; completa&amp;#x0163;i urm&amp;#x0103;torul careu!</exercise-subtitle>
+<instructions>Da&amp;#x0163;i c&amp;#x00E2;te un click asupra fiec&amp;#x0103;rui num&amp;#x0103;r din careu, citi&amp;#x0163;i indica&amp;#x0163;iile, efectua&amp;#x0163;i calculele &amp;#x015F;i completa&amp;#x0163;i careul. SUCCES!
+ Dac&amp;#x0103; este cazul, accesa&amp;#x0163;i butonul &quot;Indiciu&quot;...</instructions>
+<guess-correct>Corect!</guess-correct>
+<guess-incorrect>Incorect!</guess-incorrect>
+<clues-across>Orizontal&amp;#x0103;:</clues-across>
+<clues-down>Vertical&amp;#x0103;:</clues-down>
+<next-correct-letter></next-correct-letter>
+<include-keypad>0</include-keypad>
+<include-clue-list>0</include-clue-list>
+<enter-caption>Enter</enter-caption>
+<include-hint>1</include-hint>
+<case-sensitive>0</case-sensitive>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<separate-javascript-file>0</separate-javascript-file>
+</jcross>
+
+<global>
+<your-score-is>Punctajul dvs. este: </your-score-is>
+<check-caption>Verific&amp;#x0103;!</check-caption>
+<ok-caption>OK!</ok-caption>
+<hint-caption>Indiciu</hint-caption>
+<keypad-characters></keypad-characters>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#ffffcc</page-bg-color>
+<title-color>#990000</title-color>
+<ex-bg-color>#FFFFCC</ex-bg-color>
+<text-color>#990000</text-color>
+<link-color>#800000</link-color>
+<vlink-color>#ff0000</vlink-color>
+<nav-bar-color>#FFCB7D</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+</global>
+</hotpot-config-file>
+</hotpot-jcross-file>
