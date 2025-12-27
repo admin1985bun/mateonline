@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meniu Lecții</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #0f2557 0%, #1a3a6b 100%);
+            color: #e8e8e8;
+            padding: 20px 15px;
+            line-height: 1.6;
+        }
+        
+        .section-title {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .section-title:first-child {
+            margin-top: 0;
+        }
+        
+        .menu-table {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        
+        .menu-item {
+            background: rgba(230, 230, 230, 0.95);
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            border-left: 3px solid #4a90e2;
+        }
+        
+        .menu-item:hover {
+            background: rgba(240, 240, 240, 1);
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .menu-item ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .menu-item li {
+            margin: 6px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .menu-item li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+        
+        .menu-item a {
+            color: #000066;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+        
+        .menu-item a:hover {
+            color: #4a90e2;
+            text-decoration: underline;
+        }
+        
+        .video-link {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .video-link::before {
+            content: "🎥";
+            margin-right: 5px;
+        }
+        
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #4a90e2;
+            border-radius: 5px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #5ba3ff;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px 10px;
+            }
+            
+            .section-title {
+                font-size: 1rem;
+            }
+            
+            .menu-item {
+                padding: 10px 12px;
+            }
+            
+            .menu-item a {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section-title">Lecții interactive</div>
+    
+    <div class="menu-table">
+        <div class="menu-item">
+            <ul>
+                <li><a href="recapin/index.html" target="intro">Recapitulare cls. IV</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="nrnat1/index.html" target="intro">Numere naturale</a></li>
+                <li><a href="https://youtu.be/WYedrl7tS84" target="_new" class="video-link">Explicații video</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="axanr/axanr.html" target="intro">N, Z, Q</a></li>
+                <li><a href="https://youtu.be/O0GY_heof5g" target="_new" class="video-link">Explicații video</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="adscdfr/index.html" target="intro">Adun/scad fracții</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="pctcolin/pctcolin.html" target="intro">Puncte coliniare</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="segm/segm.html" target="intro">Segmente congruente</a></li>
+                <li><a href="https://youtu.be/gvXQVuVHfAk" target="_new" class="video-link">Explicații video</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="pozit1/pozpctdrpl.html" target="intro">Poziții</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="teste/geome1/index.html" target="_new">Test-1</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/model2dx.html" target="intro">Simetrii (0)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/model2d.html" target="intro">Simetrii (1)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/simplan.html" target="intro">Simetrii (2)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/simpatr.html" target="intro">Simetrii (3)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/model3d.html" target="intro">Simetrii (4)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/simdrp3d.html" target="intro">Simetrii (5)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/simdrp3db.html" target="intro">Simetrii (6)</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/simetr1.pdf" target="intro">Teorie 1</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-item">
+            <ul>
+                <li><a href="simetr/centresim.html" target="intro">Centre</a></li>
+                <li><a href="https://youtu.be/__ZetEcduXY" target="_new" class="video-link">Explicații video</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">Autoevaluare</div>
+    
+    <div class="menu-table">
+        <div class="menu-item">
+            <ul>
+                <li style="color: #ff6b6b; font-weight: 700; margin-bottom: 10px;">Numere raționale</li>
+                <li><a href="teste/adun/index.html" target="_new">Adun/scad</a></li>
+                <li><a href="teste/inmult/index.html" target="_new">Înmulțiri/Împărțiri</a></li>
+                <li><a href="teste/frzec2/index.html" target="_new">Transformări-0</a></li>
+                <li><a href="teste/frzec/index.html" target="_new">Transformări-1</a></li>
+                <li><a href="teste/frzec0/index.html" target="_new">Transformări-2</a></li>
+                <li><a href="teste/transf/index.html" target="_new">Transformări-3</a></li>
+                <li><a href="teste/calcul/index.html" target="_new">Adun/scad</a></li>
+                <li><a href="teste/calcul2/index.html" target="_new">Înmultesc/Împart</a></li>
+                <li><a href="teste/frzectst/index.html" target="_new">Mini-test</a></li>
+                <li><a href="teste/opinq/index.html" target="_new">Operații în Q</a></li>
+                <li><a href="teste/media1/mediaar1.html" target="_new">Media aritmetică</a></li>
+                <li><a href="teste/lungi/lungimi.html" target="_new">U. M. pt. lungime 1</a></li>
+                <li><a href="teste/lungi/lung1.html" target="_new">U. M. pt. lungime</a></li>
+                <li><a href="teste/lungi/arii.html" target="_new">U. M. pt. arie</a></li>
+                <li><a href="teste/statis/statisc.html" target="_new">Statistică-1</a></li>
+                <li><a href="teste/statis/statisd.html" target="_new">Statistică-2</a></li>
+                <li><a href="teste/statis/statifb.html" target="_new">Statistică-3</a></li>
+                <li><a href="teste/statis/statisx.html" target="_new">Statistică-4</a></li>
+                <li><a href="teste/statis/medaip.html" target="_new">Media ponderată</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="menu-table">
+        <div class="menu-item">
+            <ul>
+                <li><a href="intro.html" target="intro">Introducere</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
